@@ -1,0 +1,48 @@
+.button_styling {
+  justify-content: center;
+  text-align: center;
+  color: black !important;
+  background-color: #F2D17A !important;
+  border-color: #0a53be00 !important;
+  --bs-btn-padding-x: 2.5rem !important;
+  margin: 20px;
+}
+
+.WrapperClassName {
+  background-image: url(/src/assets/together.png);
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-position: center center;
+}
+
+.WrapperClassName:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.title_job {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: lighter;
+  color: #ffffff;
+
+}
+
+.desc_job {
+  text-align: center;
+  font-size: 1.30rem;
+  color: #F2D17A;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+}
+
+.button_styling:hover {
+  background-color: white !important;
+}

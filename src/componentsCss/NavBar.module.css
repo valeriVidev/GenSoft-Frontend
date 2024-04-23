@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.font_link {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_links {
+
+    color: #DED194 !important;
+    font-size: large !important;
+    text-align: center;
+}
+
+.nav_links:hover {
+    color: #F8F8F8 !important;
+}
+
+.alignment_icons {
+    display: flex;
+    gap: 15px;
+}
+
+.container {
+    --bs-gutter-x: 4rem !important;
+}
+
+.navbar {
+
+    --bs-navbar-toggler-border-color: rgb(255 255 255 / 0%) !important;
+    --bs-navbar-nav-link-padding-x: 0rem !important;
+    --bs-navbar-color: #ffffff00 !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+.menu {
+    --bs-gutter-x: 4rem !important;
+    background-color: #1a1a1ae1 !important;
+    --bs-navbar-padding-y: 0.2rem !important;
+    --bs-navbar-brand-padding-y: 0.2rem !important;
+    --bs-navbar-nav-link-padding-x: 1.50rem !important;
+    --bs-navbar-color: #F2D17A;
+}
+
+
+
+@media (max-width: 988px) {
+    .alignment_icons {
+        display: flex;
+        justify-content: center;
+        padding: 1% !important;
+    }
+}

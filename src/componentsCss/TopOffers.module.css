@@ -1,0 +1,59 @@
+.car {
+  width: 50%;
+}
+
+.top_offers {
+  justify-content: center;
+}
+
+.top_offers_title {
+  z-index: 1;
+  position: relative;
+  top: 20px;
+}
+
+.carousel_cover {
+  z-index: 1;
+  position: relative;
+  top: 33px;
+  object-fit: cover;
+  /* overflow: hidden; */
+  width: 100px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.carousel_cover_second {
+  z-index: 1;
+  position: relative;
+  top: -34px;
+}
+
+.button_styling {
+  justify-content: center;
+  text-align: center;
+  color: black !important;
+  background-color: #F2D17A !important;
+  border-color: #0a53be00 !important;
+  --bs-btn-padding-x: 2.5rem !important;
+  margin-left: 20px;
+  --bs-btn-border-radius: 0rem;
+}
+
+.button_styling:hover {
+  background-color: white !important;
+}
+
+.Wrapper_buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  top: -100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_styling {
+    margin-top: 60px;
+  }
+}
