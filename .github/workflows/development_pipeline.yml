@@ -65,5 +65,4 @@ jobs:
 
       - name: Run Cypress tests
         run: |
-          cd Frontend
           npx cypress run --browser chrome --record --config-file cypress.config.js --headless
