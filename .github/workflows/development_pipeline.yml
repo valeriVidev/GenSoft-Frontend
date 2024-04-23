@@ -53,16 +53,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     cache: 'npm'
-      #     cache-dependency-path: Frontend/package-lock.json
-
-      # - name: Install dependencies
-      #   run: npm ci
-      #   working-directory: Frontend
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
 
       - name: Run Cypress tests
         run: |
+          npm ci
           npx cypress run --browser chrome --record --config-file cypress.config.js --headless
