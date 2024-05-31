@@ -17,7 +17,6 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Container> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -30,9 +29,8 @@ function App() {
         <Route path="/admin" element={<><Authentication /><AdminPanel /> </>} />
         <Route path="/functionality/filters" element={<><Authentication /> <FiltersHandle /></>} />
         <Route path="/functionality/properties" element={<><Authentication /><PropertiesHandle /> </>} />
-
       </Routes>
-      {/* </Container> */}
+
     </>
   );
 }
