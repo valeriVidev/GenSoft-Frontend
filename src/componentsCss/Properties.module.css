@@ -1,0 +1,178 @@
+.error {
+    color: red;
+}
+
+.title {
+    width: 40%;
+    font-size: 3rem;
+    color: white;
+    margin-top: 114px;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+/* filters  start */
+.wrapper_filters {
+    padding-top: 20px;
+    display: flex;
+    margin-left: 10%;
+    padding: 10px;
+    margin-right: 10%;
+    gap: 3%;
+    color: white;
+    align-items: flex-end;
+}
+
+.wrapper_filters_search {
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.filter_whole {
+    width: 20%;
+    justify-content: center;
+}
+
+.filter_search {
+    height: 37px !important;
+}
+
+.link_styling {
+    text-decoration: none;
+}
+
+/* filters  end */
+
+/* property  start */
+.link_styling {
+    text-decoration: none;
+}
+
+.wrapper_property {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.descr_industrial_properties {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrapper_left {
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.wrapper_right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.title_description {
+    color: #F2D17A;
+    font-size: 1.60rem;
+}
+
+.description {
+    color: white;
+    font-size: 1.30rem;
+}
+
+/* button  start */
+.investition_button {
+    justify-content: center;
+    text-align: center;
+    color: black !important;
+    background-color: #F2D17A !important;
+    border-color: #0a53be00 !important;
+    height: max-content;
+    --bs-btn-padding-x: 2.5rem !important
+}
+
+.title_font {
+    font-family: 'Tiro Telugu', sans-serif !important;
+}
+
+.about_us_button {
+    justify-content: center;
+    text-align: center;
+    color: black !important;
+    background-color: #F2D17A !important;
+    border-color: #0a53be00 !important;
+    --bs-btn-padding-x: 2.5rem !important;
+}
+
+.about_us_button:hover {
+    background-color: white !important;
+}
+
+.investition_button:hover {
+    background-color: rgb(0, 0, 0) !important;
+    border-color: #F2D17A !important;
+    color: #F2D17A !important;
+}
+
+.img_styling {
+    object-fit: cover;
+    /* overflow: hidden; */
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* button  end */
+
+/* property  end */
+@media (max-width:1075px) {
+    .filter_whole {
+        width: 100%;
+    }
+
+    .wrapper_filters {
+        display: grid;
+    }
+
+    .wrapper_filters_search {
+        display: grid;
+        width: 60%;
+    }
+}
+
+@media (max-width:947px) {
+    .wrapper_property {
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .property_item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper_left {
+        width: 100%;
+    }
+
+    .wrapper_right {
+        padding-top: 20px;
+        width: 100%;
+    }
+}

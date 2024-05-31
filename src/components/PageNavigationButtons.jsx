@@ -1,4 +1,4 @@
-import NewsCSS from "../componentsCss/News.module.css";
+import OtherCSS from "../componentsCss/Other.module.css";
 import Button from "react-bootstrap/Button";
 import React from "react";
 
@@ -29,11 +29,11 @@ function PageNavigationButtons(props) {
     }
 
     return (
-        <div className={NewsCSS.wrapper_buttons_paginator}>
+        <div className={OtherCSS.wrapper_buttons_paginator}>
             <div>
                 {props.request_offset > 0 ?
                     (<Button
-                        className={`${NewsCSS.title_font} ${NewsCSS.about_us_button}`}
+                        className={`${OtherCSS.title_font} ${OtherCSS.about_us_button}`}
                         variant="primary"
                         size="large"
                         onClick={handlePrevClick}
@@ -48,7 +48,7 @@ function PageNavigationButtons(props) {
             <div>
                 {props.response_size == 6 ?
                     (<Button
-                        className={`${NewsCSS.title_font} ${NewsCSS.about_us_button}`}
+                        className={`${OtherCSS.title_font} ${OtherCSS.about_us_button}`}
                         variant="primary"
                         size="large"
                         onClick={handleNextClick}

@@ -1,0 +1,133 @@
+.cover_contact {
+  background-image: url(/src/assets/cover_contact.webp);
+  -webkit-background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.wrapper_content {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Control the right side */
+.right {
+  justify-content: center;
+  text-align: center;
+  padding-top: 114px;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+
+
+
+/* left side start*/
+.left {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  padding-top: 114px;
+  left: 0;
+}
+
+.centered {
+  text-align: left;
+  color: white;
+}
+
+.title {
+  color: #DED194;
+  padding-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.phone_wrapper {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.contact_phone_title {
+  color: #DED194;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+/* left side end*/
+
+
+
+
+/* right side start*/
+.right {
+  right: 0;
+}
+
+.wrapper_contact_information {
+  align-items: center;
+  padding-top: 15%;
+}
+
+.contact_number {
+  color: white;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3%;
+}
+
+.map_container_2 {
+  overflow: hidden;
+
+  margin-top: 40px;
+  padding-bottom: 35.25%;
+  position: relative;
+  height: 0;
+}
+
+.wrapper_map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+}
+
+.wrapper_map {
+  position: relative;
+  overflow: hidden;
+}
+
+/* .wrapper_map iframe {
+  pointer-events: none;
+}
+
+.wrapper_map iframe.clicked {
+  pointer-events: auto;
+} */
+
+/* right side end*/
+
+
+/* map styling end*/
+@media screen and (max-width:720px) {
+  .right {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .wrapper_content {
+    flex-direction: column;
+  }
+
+}

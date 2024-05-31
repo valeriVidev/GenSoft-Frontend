@@ -2,9 +2,13 @@ import CapitalPlusCSS from "../componentsCss/CapitalPlusWorks.module.css";
 import Button from "react-bootstrap/Button";
 import HomeCSS from "../componentsCss/HomePage.module.css";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from "react-router-dom";
+
 
 function CapitalPlusWork() {
   const { t, i18n } = useTranslation()
+  const navigateTo = useNavigate();
+
 
   return (
     <div className={`${CapitalPlusCSS.WrapperClassName}`}>
@@ -20,6 +24,7 @@ function CapitalPlusWork() {
       </p>
       <Button
         className={`${CapitalPlusCSS.button_styling}`}
+        onClick={() => {navigateTo('/contact')}}
         variant="primary"
         active
       >

@@ -40,7 +40,7 @@ function Navbar() {
         <NavbarBs.Collapse id="basic-navbar-nav">
           <Nav className={`${NavBarCSS.font_link} mx-auto `}>
             <Nav.Link
-              to="/"
+              to="/services"
               as={NavLink}
               className={NavBarCSS.nav_links}
             >
@@ -49,25 +49,25 @@ function Navbar() {
             <Nav.Link
               to="/"
               as={NavLink}
-              className={NavBarCSS.nav_links}
+              className={`{NavBarCSS.nav_links} disabled`}
             >
               {t('primaryNav.businesses')}
             </Nav.Link>
             <Nav.Link
-              to="/"
+              to="/properties"
               as={NavLink}
               className={NavBarCSS.nav_links}
             >
               {t('primaryNav.properties')}
             </Nav.Link>
-            <Nav.Link to="/" as={NavLink} className={NavBarCSS.nav_links}>
+            <Nav.Link to="/" as={NavLink} className={`{NavBarCSS.nav_links} disabled`}>
               {t('primaryNav.news')}
             </Nav.Link>
-            <Nav.Link to="/" as={NavLink} className={NavBarCSS.nav_links}>
+            <Nav.Link to="/about" as={NavLink} className={NavBarCSS.nav_links}>
               {t('primaryNav.about_us')}
             </Nav.Link>
             <Nav.Link
-              to="/"
+              to="/contact"
               as={NavLink}
               className={NavBarCSS.nav_links}
             >

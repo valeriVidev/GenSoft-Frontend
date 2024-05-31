@@ -19,7 +19,7 @@ function LogIn() {
     const submitHandler = (event) => {
         event.preventDefault();
 
-        axios.post("http://localhost:3005/api/auth/login", {
+        axios.post("http://127.0.0.1:3005/api/auth/login", {
             username: getUsername.current.value,
             password: getPassword.current.value,
         },{

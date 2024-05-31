@@ -1,0 +1,20 @@
+.about_us_button {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white !important;
+    background-color: #000000 !important;
+    border-color: #F2D17A !important;
+    --bs-btn-padding-x: 2.5rem !important;
+}
+
+.about_us_button:hover {
+    background-color: #F2D17A !important;
+    color: #000000 !important;
+}
+
+.wrapper_buttons_paginator {
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+}

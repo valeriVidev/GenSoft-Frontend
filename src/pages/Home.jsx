@@ -9,11 +9,14 @@ import Footer from "../components/Footer";
 import HomePageSlider from "../components/HomePageSlider";
 import HomePageIntro from "../components/HomePageIntro";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from "react-router-dom";
 
 
 function Home() {
 
   const { t, i18n } = useTranslation()
+  const navigateTo = useNavigate();
+
 
   return (
     <>
@@ -28,6 +31,7 @@ function Home() {
         </p>
         <Button
           className={`${HomeCSS.title_font} ${HomeCSS.about_us_button}`}
+          onClick={() => { navigateTo('/about') }}
           variant="primary"
           size="large"
           active
