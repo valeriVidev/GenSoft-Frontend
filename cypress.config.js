@@ -11,6 +11,7 @@ export default defineConfig({
   defaultCommandTimeout: 5000,
 
   e2e: {
-    specPattern: "cypress/integration/*.js"
+    specPattern: "cypress/integration/*.js",
+    experimentalStudio: true
   },
 });
