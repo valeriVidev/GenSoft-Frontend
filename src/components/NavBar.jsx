@@ -60,9 +60,6 @@ function Navbar() {
             >
               {t('primaryNav.properties')}
             </Nav.Link>
-            <Nav.Link to="/" as={NavLink} className={`{NavBarCSS.nav_links} disabled`}>
-              {t('primaryNav.news')}
-            </Nav.Link>
             <Nav.Link to="/about" as={NavLink} className={NavBarCSS.nav_links}>
               {t('primaryNav.about_us')}
             </Nav.Link>
@@ -72,6 +69,9 @@ function Navbar() {
               className={NavBarCSS.nav_links}
             >
               {t('primaryNav.contact')}
+            </Nav.Link>
+            <Nav.Link to="/login" as={NavLink} className={NavBarCSS.nav_links}>
+              {t('primaryNav.login')}
             </Nav.Link>
           </Nav>
           <div className={NavBarCSS.alignment_icons}>

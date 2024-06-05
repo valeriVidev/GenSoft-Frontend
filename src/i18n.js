@@ -18,7 +18,7 @@ i18n
                         services: "Services",
                         properties: "Properties",
                         businesses: "Businesses",
-                        news: "News",
+                        login: "Login",
                         about_us: "About",
                         contact: "Contact"
                     },
@@ -182,7 +182,7 @@ i18n
                         services: "Услуги",
                         properties: "Имоти",
                         businesses: "Бизнеси",
-                        news: "Новини",
+                        login: "Влизане",
                         about_us: "За нас",
                         contact: "Контакти"
                     },
