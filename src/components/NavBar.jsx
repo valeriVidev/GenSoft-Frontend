@@ -71,8 +71,9 @@ function Navbar() {
               {t('primaryNav.contact')}
             </Nav.Link>
             <Nav.Link to="/login" as={NavLink} className={NavBarCSS.nav_links}>
-              {t('primaryNav.login')}
+              {t(sessionStorage.getItem("access_token") ? 'primaryNav.admin' : 'primaryNav.login')}
             </Nav.Link>
+
           </Nav>
           <div className={NavBarCSS.alignment_icons}>
 

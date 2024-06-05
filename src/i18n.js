@@ -19,6 +19,7 @@ i18n
                         properties: "Properties",
                         businesses: "Businesses",
                         login: "Login",
+                        admin: "Admin",
                         about_us: "About",
                         contact: "Contact"
                     },
@@ -183,6 +184,7 @@ i18n
                         properties: "Имоти",
                         businesses: "Бизнеси",
                         login: "Влизане",
+                        admin: "Админ",
                         about_us: "За нас",
                         contact: "Контакти"
                     },
