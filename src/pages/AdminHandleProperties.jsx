@@ -4,7 +4,7 @@ import PicAdd from "../assets/add_pic.png";
 import Select from 'react-select';
 import React, { useState, useEffect, useRef } from "react";
 import Form from 'react-bootstrap/Form';
-import Cover from "../assets/cover_properties_admin.png";
+import Cover from "../assets/cover_properties_admin.jpg";
 import Button from "react-bootstrap/Button";
 import DynamicParams from "../components/DynamicProperties";
 import axios from "axios";

@@ -1,7 +1,7 @@
 import HomeCSS from "../componentsCss/HomePage.module.css";
 import HomeIntroCSS from "../componentsCss/HomePageIntro.module.css"
 
-import Cover from "../assets/cover.webp";
+import Cover from "../assets/cover.jpg";
 import News from "../assets/news.svg";
 import Offers from "../assets/offers.svg";
 import Overview from "../assets/overview.svg";

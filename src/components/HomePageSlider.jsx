@@ -1,8 +1,8 @@
 import HomeCSS from "../componentsCss/HomePage.module.css";
 import Carousel from "react-bootstrap/Carousel";
-import FirstSLider from "../assets/first_slider.webp";
-import ThurdSLider from "../assets/thurd_slider.webp";
-import SecondSLider from "../assets/second_slider.webp";
+import FirstSLider from "../assets/first_slider.jpg";
+import ThurdSLider from "../assets/thurd_slider.jpg";
+import SecondSLider from "../assets/second_slider.jpg";
 import { useTranslation } from 'react-i18next';
 
 

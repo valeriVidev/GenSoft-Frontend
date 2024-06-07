@@ -1,7 +1,7 @@
 import AboutCSS from "../componentsCss/About.module.css";
 import Footer from "../components/Footer";
 
-import Profile from "../assets/ceo_photo.png";
+import Profile from "../assets/ceo_photo.jpg";
 import OneShop from "../assets/one_shop.png";
 import Experience from "../assets/experience.png";
 import FaceToFace from "../assets/face_to_face.png";

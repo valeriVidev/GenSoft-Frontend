@@ -1,4 +1,4 @@
-import Cover from "../assets/cover.webp";
+import Cover from "../assets/cover.jpg";
 import Logo from "../assets/logo_full_size.png";
 import LogInCSS from "../componentsCss/LogIn.module.css";
 import Button from "react-bootstrap/Button";
