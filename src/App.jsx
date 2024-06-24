@@ -13,7 +13,7 @@ import PropertiesHandle from "./pages/AdminHandleProperties";
 import "./componentsCss/HomePage.module.css";
 import Authentication from "./components/Authentication";
 
-function App() {
+function App() { // Demo
   return (
     <>
       <Navbar />
